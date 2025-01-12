@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flight-agent"
+version = "0.1.0"
+description = ""
+authors = ["zjandali <yzjandali@berkeley.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+crewai = {extras = ["tools"], version = "^0.95.0"}
+html2text = "^2024.2.26"
+playwright = "^1.49.1"
+python-dotenv = "^1.0.1"
+crewai-tools = "^0.25.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
